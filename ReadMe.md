@@ -6,15 +6,15 @@ I created an HTML page that shows the basic accessibility tips (https://tanjasav
 
 1. Define the natural language of document. Telling the browser which language you are using in your document has many benefits. It’s good for SEO, it helps third-party        translation tools and browsers to identify the right language and dictionary. Defining the correct language in an HTML page helps assistive technology to choose the correct   voice profile or character set.
 2. Apply the alt attribute in images. If an image is used as content, apply the alt attribute to describe the images content and function succinctly. When you do that don't    start with „Picture/Image/Graphic of…“, because the screen reader does that anyway.
-3. If you need a button, use the <button> element and not a <div>. Buttons have many benefits/crucial features, for example:
+3. If you need a button, use the `<button>` element and not a `<div>`. Buttons have many benefits/crucial features, for example:
 -	focusable;
 -	clickable (with mouse and keys);
 -	screen readers identify them as buttons.
-4. Structure the markup correctly with headings. By creating a sound outline using headings <h1> - <h6> you are helping users to better understand the structure of page and relationships between individual sections. On top of that, it will help users with assistive technology navigate.
-5. Use landmarks to help people navigate site. It is possible and advised to mark up thematic sections with HTML5 <article>, <aside>, <nav>, <section>. Sectioning elements are not a replacement for the <div> element. Use them to mark up bigger chunks of related content which are distinct from other content. Don't overuse sectioning elements. Use <div> for CSS/JS only purposes and sections for semantics.
+4. Structure the markup correctly with headings. By creating a sound outline using headings `<h1>` - `<h6>` you are helping users to better understand the structure of page and relationships between individual sections. On top of that, it will help users with assistive technology navigate.
+5. Use landmarks to help people navigate site. It is possible and advised to mark up thematic sections with HTML5 `<article>`, `<aside>`, `<nav>`, `<section>`. Sectioning elements are not a replacement for the `<div>` element. Use them to mark up bigger chunks of related content which are distinct from other content. Don't overuse sectioning elements. Use `<div>` for CSS/JS only purposes and sections for semantics.
 6. The main page content, header, and footer are also landmarks.
-By wrapping the main content of site in a <main> element you give some screen users the ability to jump directly to your main content using a shortcut. „The main element represents the main content section of the body of a document or application“ and must not be used more than once per document.
-Splitting up content into landmarks is a good thing. <header> and <footer> behave in all major browsers like landmarks if they are not nested in a <section> or <article> element.
+By wrapping the main content of site in a `<main>` element you give some screen users the ability to jump directly to your main content using a shortcut. „The main element represents the main content section of the body of a document or application“ and must not be used more than once per document.
+Splitting up content into landmarks is a good thing. `<header>` and `<footer>` behave in all major browsers like landmarks if they are not nested in a `<section>` or `<article>` element.
 7. Fieldsets are great for grouping form elements and giving them more context.
 
 
