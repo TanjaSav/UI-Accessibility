@@ -35,4 +35,4 @@ Inclusive design extends solutions to all users who have a broad spectrum of int
 Considering universal design, inclusive design, and accessibility is key to making products and services that are not only functional, but delightful for all.
 
 
-Figma file: Prototype with accessibility support https://www.figma.com/file/mpCGq4D1fO2l4whAo1yRn7/Prototype-with-accessibility-support?node-id=0%3A1
+Figma file 'Prototype with accessibility support': https://www.figma.com/file/mpCGq4D1fO2l4whAo1yRn7/Prototype-with-accessibility-support?node-id=0%3A1
