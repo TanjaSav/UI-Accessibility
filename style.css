@@ -20,12 +20,12 @@ div {
   cursor: pointer;
 }
 
-a{
-  text-decoration: none;
-}
-
 ul {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 div[contenteditable] {
