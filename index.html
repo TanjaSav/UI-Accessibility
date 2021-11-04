@@ -1,0 +1,134 @@
+<html lang="en">
+  <head>
+    <title>Accessible structure of HTML</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+
+    <header>
+      <!-- Navigation -->
+      <h2>Navigation</h2>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <!-- Actions -->
+        <h2>Actions</h2>
+        <div>
+          <button class="btn">Click me</button>
+        </div>
+        <!-- Image -->
+        <h2>Image</h2>
+        <div>
+          <img src="gray_kitten.jpg" alt="Little gray kitty sitting on yellow leaves">
+        </div>
+        <!-- Good link text -->
+        <h2>Good link text</h2>
+        <p>Whales are really awesome creatures.
+          <a href="whales.html">Find out more about whales</a>.
+        </p>
+        <!-- Checkbox -->
+        <h2>Checkbox</h2>
+        <div>
+          <label><input type="checkbox">Sign me up!</label>
+        </div>
+        <!-- Radios -->
+        <H2>Radios</H2>
+        <div>
+          <ul>
+            <li>
+              <label><input name="a" type="radio">Mango</label>
+            </li>
+            <li>
+              <label><input name="a" type="radio">Peach</label>
+            </li>
+          </ul>
+        </div>
+        <!-- Selects -->
+        <h2>Selects</h2>
+        <label for="fruit-select">Select your favorite fruit</label>
+        <select name="fruits" id="fruit-select">
+          <option value="appple">Apple</option>
+          <option value="orange">Orange</option>
+          <option value="banana">Banana</option>
+        </select>
+      </section>
+      
+      <section>
+        <!-- Range -->
+        <h2>Range</h2>
+        <div>
+          <label for="volume">Volume</label>
+          <input type="range" id="volume" name="volume" min="0" max="10" value="0">
+        </div>
+        <!-- Date -->
+        <h2>Date</h2>
+        <div>
+          <label for="start">Start date:</label>
+          <input type="date" id="start" name="trip-start"
+           value="2018-07-22"
+           min="2018-01-01" max="2018-12-31">
+        </div>
+        <!-- Time -->
+        <h2>Time</h2>
+        <div>
+          <label for="appt">Choose a time for your meeting:</label>
+          <input type="time" id="appt" name="appt" value="00:00:00" min="09:00" max="18:00" required>
+          <small>Office hours are 9am to 6pm</small>
+        </div>
+        <!-- Number -->
+        <h2>Number</h2>
+        <div>
+          <label for="tentacles">Number of tentacles (10-100):</label>
+          <input type="number" id="tentacles" name="tentacles"
+           min="10" max="100">
+        </div>
+        <!-- Color -->
+        <h2>Color</h2>
+        <div>
+          <label for="head">Choose your color:</label>
+            <input type="color" id="head" name="head" value="#00ff00">
+        </div>
+        <!-- File -->
+        <h2>File</h2>
+        <div>
+          <label for="avatar">Choose a profile picture:</label>
+          <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!-- Editable text -->
+      <h2>Editable text</h2>
+      <div>
+        <input placeholder="email">
+      </div>
+      <div>
+        <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+      </div>
+      <div>
+        <textarea placeholder="massage"></textarea>
+      </div>
+      <div>
+        <input type="submit" class="btn">
+      </div>
+    </footer>
+  </body>
+</html>
