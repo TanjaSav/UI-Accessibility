@@ -1,8 +1,8 @@
 
 
-#The basic accessibility tips
-
-[I created an HTML page that shows the basic accessibility tips] () I've learned, such as:
+The basic accessibility tips
+------
+[I created an HTML page that shows the basic accessibility tips] (https://tanjasav.github.io/UI-Accessibility/) I've learned, such as:
 
 1. Define the natural language of document. Telling the browser which language you are using in your document has many benefits. It’s good for SEO, it helps third-party translation tools and browsers to identify the right language and dictionary. Defining the correct language in an HTML page helps assistive technology to choose the correct voice profile or character set.
 2. Apply the alt attribute in images. If an image is used as content, apply the alt attribute to describe the images content and function succinctly. When you do that don't start with „Picture/Image/Graphic of…“, because the screen reader does that anyway.
@@ -19,10 +19,8 @@ Splitting up content into landmarks is a good thing. <header> and <footer> behav
 7. Fieldsets are great for grouping form elements and giving them more context.
 
 
-
-
-#Universal design vs inclusive design
-
+Universal design vs inclusive design
+ -----
 Inclusive design focuses on exploring ways of serving a full spectrum of people who make up a diverse market. This may involve different solutions or processes for different groups of people, rather than a one size fits all approach.
 In comparison, universal design serves the broadest range of users possible, rather than trying to address individual accessibility or inclusion objectives. Typically, universal design doesn’t provide additional support for ‘edge cases’, instead, providing a single solution that serves the most extensive possible user base, without added accommodations.
 Additionally, universal design has historically focused on places and architecture and recently been applied to products. Whereas inclusive design can be applied to each of these areas as well as systems and services.
